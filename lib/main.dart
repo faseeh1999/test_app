@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Card(
                       child: Column(
@@ -73,6 +73,7 @@ class Home extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 10.0),
+
                   ],
                 ),
               ],
